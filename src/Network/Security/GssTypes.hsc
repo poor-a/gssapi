@@ -7,6 +7,8 @@ module Network.Security.GssTypes where
 import           Foreign
 import           Foreign.C.String
 
+#include <time.h>
+#include <stdint.h>
 #include <gssapi/gssapi.h>
 #include <gssapi/gssapi_krb5.h>
 
